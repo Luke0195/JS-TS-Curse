@@ -1,11 +1,8 @@
-// Aula 06: Let vs Var - Primeira diferença
-// ECMAScript 2015(ES6)
-var nome = 'Lucas';
-var nome = 'Mathues';
-console.log(nome);
-
-texto = 'Hello Stranger';
-
-console.log(nome, texto);
-
-// Primeira diferença entra var e let, não podemos redeclarar a variável let utilizando a palavra reservada.
+// Aula 06 : Tipos Primitivos 
+// String , number, undefined, null boolean, symbol
+const nome = 'Luiz';// string
+const nome1 = " Lucas";// string
+const nome2 = `Lucas`;// string
+const num1 = 10;// number
+const num2 = 10.52;//number
+let nomeAluno; // undefined;
