@@ -31,7 +31,7 @@ section{
 
 @keyframes moveUp{
   0%{
-    transform: translateY(-50px)
+    transform: translateY(-500px)
   }
   100%{
     transform: translateY(0);
