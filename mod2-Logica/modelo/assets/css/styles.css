@@ -47,9 +47,11 @@ section{
 }
 
 .container p{
-  font-size: 17px;
-  line-height: 20px;
+  font-size: 20px;
+  line-height: 30px;
   margin: 20px auto;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .container form{
