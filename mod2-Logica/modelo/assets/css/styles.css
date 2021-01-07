@@ -1,0 +1,101 @@
+*{
+  padding:0;
+  margin: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  height: 100%;
+}
+
+body{
+  background:#017371;
+}
+
+section{
+  width: 100%;
+}
+
+.container{
+  width: 100%;
+  max-width: 500px;
+  margin: 30px auto;
+  background: rgba(255, 255, 255,0.7);
+  padding: 30px;
+  box-shadow:  15px 0 35px rgba(0,0,0,0.6);
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  animation: moveUp 1s ease-out ;
+}
+
+@keyframes moveUp{
+  0%{
+    transform: translateY(-50px)
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
+
+.container h1{
+  text-align: center;
+  margin:20px 0;
+  font-size: 24px;
+  line-height: 34px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container p{
+  font-size: 17px;
+  line-height: 20px;
+  margin: 20px auto;
+}
+
+.container form{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container form label{
+  margin: 5px 0;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 28px;
+}
+
+.container form input{
+  margin: 5px 0;
+  width: 100%;
+  max-width: 350px;
+  height: 40px;
+  padding-left: 8px;
+  outline: 0;
+}
+
+.container form input:focus{
+  border: 1px solid #0E87CC;
+}
+
+.container form button{
+  margin: 20px 0;
+  width: 100%;
+  max-width: 350px;
+  cursor: pointer;
+  height: 50px;
+  background:#017371;
+  font-size: 18px;
+  font-weight: bold;
+  color:#fff;
+  border: 0;
+  border-radius: 5px;
+  transition: background 0.8s ease-out;
+}
+
+.container form button:hover{
+  background:#0b504f;
+}
+
