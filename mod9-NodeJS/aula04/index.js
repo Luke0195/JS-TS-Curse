@@ -3,7 +3,7 @@ const express = require('express')
 const app = express();
 
 app.get('/', (request, response) =>{
-  return response.json({message: 'Redux na pratíca '});
+  return response.json({message: 'Guia definitivo de redux na pratica '});
 });
 
 app.listen(3338, ()=>{
