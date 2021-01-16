@@ -1,0 +1,15 @@
+Quando a dependencia possui um ^ a versão seja atualizada
+
+Se quissermos instalar a versão do express em uma versão especifica devemos passar um -E
+
+deinstalar uma dependecia o npm unistall express -D
+
+Express 2.1.0
+
+Detalhes de versões
+
+2 -> major -> o que foi mudado na major vai quebrar toda a aplicação
+1 -> minor ->  tudo que adiciomarmos na minor estária disponivel  para major
+0 -> patch -> correções de bugs da aplicação
+
+npm install express 4.x -> vai instalar o express na versão 4 podendo ser atualizado as versões minor e patch
